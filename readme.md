@@ -36,8 +36,8 @@ The user interface is created with Streamlit, providing a simple and intuitive c
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/Daksh7565/Agentic_AI.git
+    cd Agentic_AI.git
     ```
 
 2.  **Create a virtual environment:**
