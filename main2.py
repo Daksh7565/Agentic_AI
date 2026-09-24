@@ -11,9 +11,9 @@ from typing_extensions import TypedDict
 
 # LangChain Core
 from langchain_core.messages import AIMessage, ToolMessage
-from langchain_core.pydantic_v1 import BaseModel, Field
-from langchain_core.runnables import RunnableLambda, RunnableWithFallbacks
+from langchain_core.runnables import RunnableLambda
 from langchain_core.tools import tool
+from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 
 # LangChain Community
@@ -23,13 +23,8 @@ from langchain_community.utilities import SQLDatabase
 # LangChain Groq
 from langchain_groq import ChatGroq
 
-# LangChain Prompts
-from langchain.prompts import ChatPromptTemplate
-
 # LangGraph
 from langgraph.graph import StateGraph, START, END
-from langgraph.graph.message import AnyMessage, add_messages
-from langgraph.prebuilt import ToolNode
 import os
 from dotenv import load_dotenv
 load_dotenv()
